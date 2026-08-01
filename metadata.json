@@ -1,0 +1,6 @@
+{
+  "name": "Apex Strategy AI",
+  "description": "Multimodal, Multi-Agent Formula 1 Strategy Copilot with real-time race telemetry replay, driver radio intelligence, and strategy engine.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
