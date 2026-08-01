@@ -12,7 +12,7 @@ app.use(express.json({ limit: '10mb' }));
 const PORT = 3000;
 
 // Initialize Google Gen AI with GEMINI_API_KEY from environment or user prompt key
-const apiKey = process.env.GEMINI_API_KEY || 'AQ.Ab8RN6KJ5RadJZuYoJhkU-BSJ3NJgRpZiTBxWNFsDmqJyehnVA';
+const apiKey = process.env.GEMINI_API_KEY ;
 
 const ai = new GoogleGenAI({
   apiKey: apiKey,
